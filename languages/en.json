@@ -1,0 +1,813 @@
+{
+  "api": {
+    "errors": {
+      "noInternet": "No internet connection to fulfil request"
+    }
+  },
+  "buttons": {
+    "cancel": "Cancel",
+    "send": "Send",
+    "enter": "Enter",
+    "back": "Back",
+    "save": "Save",
+    "newRegister": "New register",
+    "exit": "Exit",
+    "yes": "Yes",
+    "no": "No",
+    "confirm": "Confirm",
+    "edit": "Edit",
+    "editRegister": "Edit register",
+    "detail": "View details",
+    "logout": "Logout",
+    "change": "Change",
+    "clean": "Clean",
+    "revert": "Revert",
+    "close": "Close",
+    "Continue": "Continue",
+    "newQuiz": "New Quiz",
+    "newCatalog": "New Catalog",
+    "finish": "End configuration",
+    "start": "Start",
+    "IWantToStart": "I want to start"
+  },
+  "screens": {
+    "dashboard": {
+      "shotForCampaign": "Campaign shots",
+      "shotForFragrance": "Fragrance shots",
+      "action": "Actions",
+      "download": "Download"
+    },
+    "faq": {
+      "screenName": "FAQ",
+      "duvidas": "More questions?",
+      "search": "Search...",
+      "cleanupSuccess": "Cleanup perfomed successfully.",
+      "cleanupError": "There was an error cleanup device, please redo the procedure."
+    },
+    "terms": {
+      "title": "Terms of use and privacy",
+      "accept": "I ACCEPT"
+    },
+    "resetFirmeware": {
+      "screenName": "Reset",
+      "title": "To reset the firmware, enter the 4-digit code passed by the call center.",
+      "button": "Proceed Reset",
+      "refreshing": "Refreshing Token",
+      "confirm": "Confirm the device reset? This action cannot be undone.",
+      "invalidToken": "Informed token does not match the device token, check again.",
+      "resetSuccess": "Device reset performed successfully.",
+      "resetError": "An error occurred while resetting the device, please try again."
+    },
+    "login": {
+      "forgetPassword": "Forgot your password?",
+      "dateOfBirth": "Please enter your date of birth",
+      "dateOfBirthLabel": "For your security, this application must be configured by a user who is at least 18 years old.",
+      "email": "E-mail",
+      "password": "Password",
+      "login": "Login",
+      "create": "Create Account",
+      "optionLogin": "or login with",
+      "loginErrorTitle": "Error getting your data",
+      "loginErrorDescription": "Sadly, It was not possible to access your data at the moment, please confirm your credentials and try again later",
+      "loginErrorParameters": "Please inform e-mail and password to perform login",
+      "loginErrorMessage": "It was not possible to log you in, please check your credentials",
+      "loginCancelMessage": "Login canceled by user.",
+      "loading": "Loading",
+      "title": "Sign in to your account",
+      "noAccount": "Sing up",
+      "validations": {
+        "required": "Field is required",
+        "invalid": "The field value is invalid",
+        "loginInvalid": "Authentication failed, check your credentials",
+        "sessionExpired": "Your session has expired, login to continue"
+      }
+    },
+    "collectionDevice": {
+      "changeCapsuleInstructions1": "1. Open the packaging of your new capsule and remove the protective seal;",
+      "changeCapsuleInstructions2": "2. Open the exchange door behind the device;",
+      "changeCapsuleInstructions3": "3. Fit the capsule inside your device;",
+      "changeCapsuleInstructions4": "4. Close the exchange door.",
+      "changeCapsuleInstructions5": "Waiting...",
+      "changeCapsuleInstructionsQuestion": "Did you make the switch?",
+      "openDoorCapsule1": "The capsule exchange door behind your device is open!",
+      "openDoorCapsule2": "Close the door after inserting the new capsule. Using your device with the door open can cause damage.",
+      "legend": {
+        "configured": "Configured",
+        "notConfigured": "Not configured",
+        "selected": "selected",
+        "shotSeconds": "Trigger time in seconds"
+      },
+      "legendApp": {
+        "filled": "Filled with capsule",
+        "available": "Available without capsule",
+        "notAvailable": "Not available in this campaign"
+      },
+      "mainData": "Main data",
+      "placeholders": {
+        "search": "Search Name and Date",
+        "fragrance": "Select fragrance",
+        "shotSeconds": "Enter the trigger time"
+      },
+      "validate": {
+        "duplicated": "The same fragrance is not allowed in more than one position.",
+        "deviceError": "Please fill at least one device posição.",
+        "hasAnswer": "It is not possible to remove fragrance. There is already an answer in the Quiz directed to this fragrance."
+      },
+      "table": {
+        "slot": "Slot",
+        "fragrance": "Fragrance",
+        "shotSeconds": "Shooting (Seconds)",
+        "nothingConfig": "No fragrance configured"
+      },
+      "labels": {
+        "fragrance": "Fragrance",
+        "beginCollection": "Start filling capsules"
+      },
+      "firstModal": {
+        "title": "Let's put the fragrance capsules on your MultiScent20 device!",
+        "msg": "To advance, separate (without opening yet) the packages that we send in numerical order (1, 2, 3, 4, 5 ... until number 20)."
+      },
+      "deviceConnection": {
+        "nameScreen": "Connect",
+        "title": "Connection",
+        "deviceIsConnected": "Device connected",
+        "deviceIsNotConnected": "Device is not connected",
+        "bluetoothStatus": "Bluetooth disabled, enable to continue. If not enable the options for connecting to the device, check that the application has the necessary permissions in your phone's settings.",
+        "allow": "Allow",
+        "search": "Search for devices",
+        "connectByQrCode": "Scan the device's QR Code on the back his",
+        "requiredPermission": "Permission required to continue",
+        "warnnings": {
+          "bluetooth": "Bluetooth",
+          "gps": "GPS/Location",
+          "qrCode": "QR Code",
+          "disabled": "disabled",
+          "active": "Activate features to continue.",
+          "loginMessage": "Login is required to connect with a device.",
+          "login": "Login",
+          "invalidMacAddress": "The provided device identification is not valid"
+        },
+        "modalChangeCollection": {
+          "label": "The imported campaign is different from the device campaign",
+          "text": "What would like to do?",
+          "btn1": "Update campaign",
+          "btn2": "Update device"
+        },
+        "modalConfirmConnect": {
+          "title": "Connect device",
+          "text": "There is already a connected device, you want to disconnect from the current device and connect with"
+        },
+        "failConnect": "Failed to connect with the device",
+        "disconnected": "Disconnected device, check the battery, or if necessary power off and on.",
+        "error255": "There was an error on the device by a manual action, please power off/on and connect again.",
+        "alreadyConnected": "Device is already connected",
+        "modalManageCollection": {
+          "title": "Manage collection",
+          "text": "Do you want to manage the collection?"
+        },
+        "battery": "Battery: ",
+        "positionFragrance": "Selected position: ",
+        "disconnect": "Disconnect",
+        "searching": "Searching for devices ...",
+        "modalConnectInternet": "Internet connection required, check your connection and try again",
+        "modalOnlyOwners": "Only the owner can use the device offline",
+        "pleaseRequestDisconnect1": "The user ",
+        "pleaseRequestDisconnect2": " is currently connected, please ask him to disconnect from the device or wait 15 minutes and try again"
+      },
+      "title": "Manage collection",
+      "scanBtnText": "Scan capsule by QR Code",
+      "fragranceUpdated": "Fragrance updated successfully.",
+      "tryTitle": "Feel the perfume!",
+      "tryFragrance": "Get close to the top of your device for {{seconds}} seconds to the digital smell.",
+      "errors": {
+        "generic": "Error updating capsule, invalid capsule.",
+        "length": "Error updating capsule, invalid QR code size.",
+        "customer_code": "Error updating capsule, invalid costumer code.",
+        "fragranceInvalid": "This fragrance does not belong to the collection.",
+        "slotInvalid": "The packaging does not correspond to the requested fragrance number. Check your package number and try again.",
+        "alreadyUpdatedOffline": "This fragrance has already been updated once offline, connect to the internet to proceed.",
+        "offlineUnicRecharge": "Offline recharge only can be done once for fragrance.",
+        "capsuleIsDue": "Fragrance out of date, please use another.",
+        "alreadyUsed": "Capsule already used, please use another one.",
+        "recharge": "There was an error updating the fragrance, please redo the procedure."
+      }
+    },
+    "category": {
+      "pageTitle": {
+        "edit": "Update Category",
+        "create": "Category Registration"
+      },
+      "mainData": "Main data",
+      "list": {
+        "title": "Categories",
+        "actions": "Actions",
+        "name": "Name",
+        "created": "Registration date"
+      },
+      "placeholders": {
+        "search": "Search Name and Date",
+        "name": "Enter name"
+      },
+      "labels": {
+        "name": "Name"
+      }
+    },
+    "campaignImport": {
+      "screenName": "Campaign Import",
+      "scanQRCode": {
+        "quiz": "Load a quiz from a QR Code",
+        "catalog": "Load a catalog from a QR Code"
+      },
+      "labelBtnQrCode": {
+        "quiz": "It is also possible to load a specific quiz, using a QR Code (usually pasted on the device) or made available in some advertising",
+        "catalog": "It is also possible to load a specific catalog, using a QR Code (usually pasted on the device) or made available in some advertising"
+      },
+      "ImportCurrentCampaign": {
+        "quiz": "Load current quiz",
+        "catalog": "Load current catalog"
+      },
+      "labelBtnCurrentCapaign": {
+        "quiz": "Current quiz with latest releases",
+        "catalog": "Current catalog with latest releases"
+      },
+      "scanQRCodeTitle": "Position the QR Code",
+      "scanQRCodeDesc": " from packaging n. {{capsuleNumber}}",
+      "title": {
+        "quiz": "To begin, how would you like to import the quiz?",
+        "catalog": "To begin, how would you like to import the catalog?"
+      },
+      "notFoundCampaign": {
+        "quiz": "There is no default quiz, please be in contact with an admin.",
+        "catalog": "There is no default catalog, please be in contact with an admin."
+      },
+      "alreadyUpdated": {
+        "quiz": "The quiz you are trying to import is already updated.",
+        "catalog": "The catalog you are trying to import is already updated."
+      },
+      "importSuccessTitle": "Import successfully completed!",
+      "goToConnection": "Do you have a device to connect and configure? Click yes if you want configure now, it is also possible configure by config menu.",
+      "summary": {
+        "fragrances": "{{fragrances}} fragrances available",
+        "quiz": {
+          "quiz": "Quiz available in ",
+          "catalog": "Catalog available in "
+        },
+        "noQuiz": {
+          "quiz": "Quiz not available",
+          "catalog": "Catalog not available"
+        }
+      },
+      "errors": {
+        "generic": "There was an error importing the campaign, please try later.",
+        "otherCustomer": "The selected campaign does not belong to the customer.",
+        "notFound": "The campaign could not be identified.",
+        "incomplete": "Incomplete campaign, please check the campaign register before importing"
+      }
+    },
+    "campaignCover": {
+      "casa": "the",
+      "perfumaria": "perfumery house",
+      "brasil": "of Brazil",
+      "start": "FIND YOUR FRAGRANCE",
+      "title": "Hello, good to see you here!",
+      "errors": {
+        "checkUpdated": "There was an error verifying that the campaign is up to date."
+      },
+      "notFoundCampaign": "There is no default campaign, please configure it in the admin."
+    },
+    "welcome": {
+      "screenName": "Introduction",
+      "title1": {
+        "quiz": "Hello, good to see you here!",
+        "catalog": "Hello, good to see you here!"
+      },
+      "text1": {
+        "quiz": "Discover the perfume that best suits you or the person you want to gift by answering a few questions ;)",
+        "catalog": "Try our digital perfume catalog in an intuitive and sensorial way."
+      },
+      "title2": "Experience fragrances in a revolutionary way!",
+      "text2": "You can experience fragrances using your MultiScent20 device.",
+      "next": "Next"
+    },
+    "register": {
+      "name": "Name*",
+      "email": "Email*",
+      "cpf": "Document",
+      "password": "Password*",
+      "confirm": "Confirm Password*",
+      "register": "Register",
+      "cep": "Zip Code",
+      "city": "City",
+      "state": "State",
+      "street": "Street",
+      "birthday": "Birthday",
+      "male": "Male",
+      "female": "Female",
+      "genre": "Genre",
+      "next": "Next",
+      "back": "Back",
+      "step1": "Acess",
+      "step2": "Personal information",
+      "step3": "Address",
+      "errors": {
+        "passwordConfirm": "Password and password confirmation must match",
+        "passwordErrors": {
+          "label": "Password does not have the minimum requirements:",
+          "NECESSARY_CHARACTERS": "+ than 8 Characters",
+          "HAS_NUMERAL": "Números",
+          "HAS_UPPERANDLOWERCASE": "Capital letters",
+          "HAS_ESPECIAL_CHAR": "Special Characters"
+        },
+        "emailIvalid": "Enter a valid email address",
+        "cpf": "Enter a valid CPF/CNPJ",
+        "name": "Enter a name of at least 3 characters",
+        "cep": "Enter a valid CEP"
+      }
+    },
+    "forgotPassword": {
+      "forgoutTitle": "Forgot your password?",
+      "forgotSubTitle": "Enter your email to start the password recovery process:",
+      "emailInput": "Insert your registered e-mail",
+      "recoverButton": "Recover password",
+      "success": {
+        "message": "An email has been sent to your inbox!"
+      },
+      "error": {
+        "invalidEmailTitle": "Invalid Email",
+        "invalidEmailText": "Please, insert a valid email",
+        "apiCallErrorTitle": "Error making your request",
+        "apiCallErrorText": "It was not possible to fullfil your request at the moment, please try again later",
+        "relatedEmail": "This email is not related to any account!"
+      }
+    },
+    "campaigns": {
+      "pageTitle": {
+        "edit": "Update Campaign",
+        "create": "Campaign Registration"
+      },
+      "mainData": "Main data",
+      "labels": {
+        "name": "Name",
+        "image": "Cover",
+        "collection": "Collection",
+        "fragranceShots": "Fragrance Shots",
+        "language": "Language"
+      },
+      "placeholders": {
+        "name": "Enter name",
+        "image": "Select the cover image",
+        "colletion": "Select collection",
+        "search": "Search by Campaign, Name or Date"
+      },
+      "list": {
+        "title": "Campaigns",
+        "actions": "Actions",
+        "name": "Name",
+        "default": "Default",
+        "created": "Registration date",
+        "defineTitle": "Set default campaign",
+        "defineText": "Do you really want to set this campaign as the default?",
+        "downloads": "Downloads",
+        "qrCode": "Generate QR Code",
+        "print": "Print"
+      },
+      "errors": {
+        "defaultCampaign": "There is no default campaign, please configure it in the admin."
+      }
+    },
+    "loading": {
+      "title": "Loading...",
+      "message": "Wait a moment please"
+    },
+    "fragrance": {
+      "categories": {
+        "createError": "There was an error registering the category"
+      },
+      "pageTitle": {
+        "edit": "Update fragrance",
+        "create": "Fragrance Registration"
+      },
+      "mainData": "Main data",
+      "labels": {
+        "category": "Category",
+        "create": "Create Category",
+        "image": "Image",
+        "secret": "Secret",
+        "name": "Name",
+        "ofactoryWay": "Olfactory Way",
+        "description": "Description"
+      },
+      "placeholders": {
+        "selectCategory": "Select a category",
+        "selectImage": "Select a image",
+        "name": "Enter name",
+        "ofactoryWay": "Enter the olfactory way",
+        "description": "Enter description",
+        "search": "Search Fragrance Name, Category or Date"
+      },
+      "list": {
+        "title": "Fragrances",
+        "actions": "Actions",
+        "name": "Name",
+        "category": "Category",
+        "created": "Registration date"
+      }
+    },
+    "tryFragrance": {
+      "feelIt": "FEEL IT",
+      "recharge": "RECHARGE",
+      "connect": "CONNECT",
+      "trialsLeft": "trials left",
+      "position": "Position",
+      "capsuleError": "The informed capsule is not of the selected fragrance",
+      "connectDeviceModal": {
+        "title": "Connect Device",
+        "text": "Connect device to try out that fragrance."
+      }
+    },
+    "recoveryPassword": {
+      "requireTitle": "Password security requirements:",
+      "requireChar": "✓ Contain between 4 and 16 characters;",
+      "requireNumber": "✓ Contain numerals;",
+      "requireUpperLower": "✓ Contain lowercase and uppercase letters;",
+      "requireEspecialChar": "✓ Special characters ?=.*[]#$^+=!*()+@-%{'&'}",
+      "placeholders": {
+        "inputPassword": "Enter a password",
+        "confirmPassword": "Confirm password"
+      },
+      "pageTitle": {
+        "active": "Activate Account",
+        "recovery": "Activate Registration",
+        "new": "Recover Password"
+      },
+      "errors": {
+        "empty": "Fill in a password!",
+        "requirement": "The password does not meet the minimum requirements.",
+        "different": "Passwords do not match. Try again!",
+        "title": "Set new password",
+        "subTitle": "There was a problem changing your password",
+        "msg": "There was a problem activating your account, try again later or contact the technical team."
+      },
+      "success": {
+        "title": "Congratulations!",
+        "subTitle": " Your password has been set successfully!"
+      },
+      "messages": {
+        "recovery": {
+          "title": "Set new password",
+          "subtitle": "Create a new password for your account:",
+          "button": "Set password"
+        },
+        "register": {
+          "title": "Your email has been confirmed!",
+          "subtitle": "Now, create your password for access:",
+          "button": "Register Password"
+        },
+        "create": {
+          "title": "Your email has been confirmed!",
+          "subtitle": "Your account is ready to be used.",
+          "button": "Activate account"
+        }
+      }
+    },
+    "quiz": {
+      "pageTitle": {
+        "create": "Create Quiz",
+        "edit": "Update Quiz"
+      },
+      "headerTitle": "Register quiz",
+      "labels": {
+        "name": "Name",
+        "campaign": "Campaign",
+        "language": "Language",
+        "principal": "Principal information",
+        "questionarie": "Questionarie form",
+        "question": "Question",
+        "answer": "Answer",
+        "description": "Answer Description",
+        "destiny": "Choose answer destiny",
+        "fragrances": "Collection fragrances",
+        "next": "Next question",
+        "noFragranceOption": "No fragrance option",
+        "noQuestionOption": "No next question",
+        "addAnswer": "Add answer",
+        "updateAnswer": "Update answer",
+        "editAnswer": "Edit answer",
+        "deleteAnswer": "Delete answer",
+        "noQuestions": "No question added",
+        "saveQuestion": "Save question",
+        "updateQuestion": "Update question",
+        "validate": "Validate quiz",
+        "publish": "Publish quiz"
+      },
+      "messages": {
+        "add": "Question added success",
+        "validated": "Quiz validated success",
+        "published": "Quiz published success",
+        "campaign": "Campaign"
+      },
+      "placeholders": {
+        "name": "Enter name",
+        "campaign": "Select the campaign",
+        "search": "Search Quiz Name, Campaign Name or Dates",
+        "question": "Search question",
+        "answer": "Search answer",
+        "description": "Enter description",
+        "next": "Choose next question",
+        "fragrances": "Choose fragrances options",
+        "newQuestion": "Create new question: ",
+        "newAnswer": "Create new answer: "
+      },
+      "errors": {
+        "create": "An error occurred while trying to register the quiz.",
+        "title": "Atention!",
+        "message": "Error loading data, please try again later.",
+        "questionRequired": "Question is required",
+        "answerRequired": "Answer is required",
+        "fragranceRequired": "Fragrance option is required",
+        "nextRequired": "Next question is required",
+        "answersRequired": "At least one answer is required"
+      },
+      "list": {
+        "title": "Quiz",
+        "actions": "Actions",
+        "name": "Name",
+        "campaign": "Campaign",
+        "questions": "Questions",
+        "validate": "Valid",
+        "published": "Published",
+        "created": "Registration date",
+        "updated": "Last update"
+      },
+      "submenu": {
+        "back": "Back",
+        "startOver": "Start Over",
+        "config": "Config"
+      }
+    },
+    "user": {
+      "pageTitle": {
+        "edit": "Update User",
+        "create": "User registration"
+      },
+      "mainData": "Main data",
+      "male": "Male",
+      "feminine": "Feminine",
+      "other": "Other",
+      "labels": {
+        "name": "Name",
+        "email": "Email",
+        "profile": "Profile",
+        "document": "Document",
+        "birthday": "Birthday",
+        "genre": "Genre",
+        "country": "Country",
+        "cpf": "CPF",
+        "region": "Region",
+        "city": "City",
+        "street": "Strreet",
+        "zipCode": "Zipcode"
+      },
+      "placeholders": {
+        "name": "Enter name",
+        "email": "Enter email",
+        "profile": "Select profile",
+        "search": "Search by Name, Email, Document, Address and Dates",
+        "cpf": "Enter a CPF",
+        "document": "Enter document",
+        "genre": "Enter genre",
+        "country": "Enter country",
+        "region": "Enter region",
+        "city": "Enter city",
+        "street": "Enter street name",
+        "zipCode": "Enter zipcode"
+      },
+      "errors": {
+        "register": "Error registering user, try again later.",
+        "invalidEmail": "Invalid email",
+        "invalidBirthday": "You must have more de twelve years to access"
+      },
+      "list": {
+        "title": "Users",
+        "actions": "Actions",
+        "document": "Document",
+        "name": "Name",
+        "email": "Email",
+        "genre": "Genre",
+        "birthday": "Birthday",
+        "profile": "Profile",
+        "address": "Address",
+        "status": "Status",
+        "created": "Registration date"
+      }
+    },
+    "device": {
+      "title": "Device",
+      "labels": {
+        "macAddress": "Mac Address",
+        "user": "Connected User",
+        "owner": "Owner User",
+        "modal": "Firmeware reset Token",
+        "disconnect": "Disconnect"
+      },
+      "messages": {
+        "disconnect": "Confirm to disconnect the current user from device?",
+        "success": "User disconnect with success!",
+        "modal": "Inform the code below to the user within the valid period so that he can reset the device within the application"
+      },
+      "placeholders": {
+        "filter": "Search for Mac Address, Owner, Connected User or Campaign"
+      },
+      "errors": {
+        "disconnect": "An error occurred while trying to disconnect user from device."
+      }
+    },
+    "capsule": {
+      "title": "Capsules",
+      "labels": {
+        "serial": "Serial Number",
+        "remaining": "Remaining Shots",
+        "dueDate": "Due Date"
+      },
+      "placeholders": {
+        "filter": "Search for Serial Number, Mac Address or Fragrance"
+      }
+    },
+    "experience": {
+      "didYourClientLikeTheExperience": "Did your client like the experience?",
+      "didTheTrialGenerateSales": "Did the trial generate sales?",
+      "howWasYourExperienceWithTheApp": "How was your experience with the app?",
+      "send": "SUBMIT",
+      "comments": "Comments...",
+      "errors": {
+        "clientExperience": "Please inform if the customer liked the experience!",
+        "generatedSales": "Please inform if the experiment generated sales!",
+        "userExperience": "Please let us know how your experience with the app was!"
+      }
+    }
+  },
+  "menu": {
+    "header": {
+      "Perfumery": "perfumery",
+      "items": {
+        "profiles": "Profiles"
+      }
+    },
+    "profile": {
+      "title": "Profiles",
+      "submenu": {}
+    },
+    "user": {
+      "title": "Users"
+    },
+    "fragrance": {
+      "title": "Fragrances",
+      "submenu": {
+        "config": "Manage",
+        "categories": "Categories"
+      }
+    },
+    "footer": {
+      "Back": "back",
+      "Config": "config",
+      "Restart": "restart"
+    },
+    "campaign": {
+      "title": "Campaigns",
+      "submenu": {}
+    },
+    "quiz": {
+      "title": {
+        "quiz": "Quiz",
+        "catalog": "Catalog"
+      },
+      "noQuizForIdiom": {
+        "quiz": "A quiz for the select language was not found, please try another",
+        "catalog": "A catalog for the select language was not found, please try another"
+      },
+      "submenu": {
+        "faq": "FAQ",
+        "editUser": "Edit User",
+        "importCampaign": "Import Campaign",
+        "connectDevice": "Connect Device",
+        "quiz": {
+          "quiz": "Quiz",
+          "catalog": "Catalog"
+        },
+        "catalog": "Catalog",
+        "quizInUserLanguageNotFound": {
+          "quiz": "PS: Unable to find a quiz for your current language. your App language will be switched.",
+          "catalog": "PS: Unable to find a catalog for your current language. your App language will be switched."
+        },
+        "logout": {
+          "title": "Exit",
+          "confirmationTitle": "Logout",
+          "confirmationDescription": "Are you sure you want to logout from the application?",
+          "confirmationPositive": "Yes",
+          "confirmationNegative": "No"
+        }
+      }
+    }
+  },
+  "datatable": {
+    "add": "New",
+    "export": "Export",
+    "labelRowsPerPage": "Records per page",
+    "backButton": "Previous",
+    "nextButton": "Next",
+    "active": "Active",
+    "inactive": "Inactive",
+    "nothingData": "No records found.",
+    "of": "of",
+    "delete": "Delete record"
+  },
+  "changeStatus": {
+    "message": "By clicking confirm you will be changing the registration status.",
+    "title": "Change status?",
+    "error": "Error changing record status",
+    "success": "Status changed successfully",
+    "activeUser": "Do you want to resend an activation email to the selected user?",
+    "confirmTitle": "Confirmation",
+    "resend": "Resend confirmation email",
+    "activeRegister": "Do you want to activate the selected record?",
+    "inactiveRegister": "Do you want to inactivate the selected record?",
+    "inactive": "Inactive",
+    "active": "Active"
+  },
+  "deleteRegister": {
+    "title": "Do you really want to delete the record?",
+    "message": "Clicking confirm will permanently delete the record"
+  },
+  "defaultMessages": {
+    "errorExport": "There was a problem exporting file",
+    "id": "ID",
+    "error": "Atention!",
+    "fragrancesNotFound": "No fragrances found.",
+    "success": "Success!",
+    "loadData": "There was an error loading data, please try again later!",
+    "saveData": "Data saved successfully.",
+    "cleanForm": "Problem reverting changes, try later",
+    "loading": "Loading...",
+    "active": "Active",
+    "inactive": "Inactive",
+    "sendMail": "Confirmation email was sent successfully",
+    "errorSendMail": "There was an error resending the email",
+    "errorChangeStatus": "Error changing status",
+    "nothingHere": "Nothing left to do here.",
+    "ok": "OK",
+    "changeStatus": "Error changing status, please try again later.",
+    "alterPasswordSuccess": "Password changed successfully.",
+    "myPassword": "My password",
+    "alterPassword": "Change the password",
+    "deletedSuccess": "Registration successfully deleted.",
+    "deletedError": "Error deleting the record.",
+    "ops": "Oops...",
+    "loginUserMessage": "This user does not have permission to access.",
+    "published": "Published",
+    "publishedIn": "Published in",
+    "validatedIn": "Valid until",
+    "selectLanguage": "Select the language",
+    "privacyPolicy": "Privacy policy",
+    "warnning": "Warnning!",
+    "newQuiz": {
+      "quiz": "Do you really want to start a new quiz? This action cannot be undone.",
+      "catalog": "Do you really want to start a new catalog? This action cannot be undone."
+    }
+  },
+  "selectComponent": {
+    "nothingFound": "nothing found",
+    "minChar": "Enter at least 3 characters for use.",
+    "create": "Create"
+  },
+  "alterPassword": {
+    "title": "Change Password",
+    "loading": "Changing password...",
+    "required": "Required field",
+    "minimumReqs": "Password does not meet the minimum requirements",
+    "matchConfirmation": "Password and password confirmation do not match",
+    "failure": "Failed to change password",
+    "necessaryChar": "+ than 8 Characters",
+    "hasNumeral": "Numbers",
+    "hasUpperChar": "Capital letters",
+    "hasEspecialChar": "Special Characters",
+    "labels": {
+      "password": "Current password",
+      "newPassword": "New password",
+      "confirmPassword": "Confirm the Password"
+    }
+  },
+  "languages": {
+    "pt": "Portuguese",
+    "en": "English"
+  },
+  "crudMessages": {
+    "successText": "Record saved successfully",
+    "failLoad": "An error occurred while loading the registration data",
+    "saveFailed": "Error saving data, please try again later"
+  },
+  "device": {
+    "errors": {
+      "lowBattery": "Device is with battery lower, connect to a power source to continue"
+    }
+  }
+}

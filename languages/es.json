@@ -1,0 +1,796 @@
+{
+  "api": {
+    "errors": {
+      "noInternet": "No internet connection to fulfil request"
+    }
+  },
+  "buttons": {
+    "cancel": "Cancelar",
+    "send": "Enviar",
+    "enter": "Entrar",
+    "back": "Volver",
+    "save": "Salvar",
+    "newRegister": "Nuevo registro",
+    "exit": "Salir",
+    "yes": "Sí",
+    "no": "No",
+    "confirm": "Confirmar",
+    "edit": "Editar",
+    "editRegister": "Editar registro",
+    "detail": "Visualizar detalles",
+    "logout": "Logout",  
+    "change": "Cambiar",
+    "clean": "Limpiar",
+    "revert": "Revertir",
+    "close": "Cerrar",
+    "Continue": "Continuar",
+    "newQuiz": "Nuevo Quiz",
+    "newCatalog": "Nuevo Catalogo",
+    "finish": "Concluir configuración",
+    "start": "Iniciar"
+  },
+  "screens": {
+    "dashboard": {
+      "shotForCampaign": "Disparos por campaña",
+      "shotForFragrance": "Disparos por fragancia",
+      "action": "Acciones",
+      "download": "Descargar"
+    },
+    "faq": {
+      "screenName": "FAQ",
+      "duvidas": "¿Más dudas?",
+      "search": "Buscar...",
+      "cleanupSuccess": "Limpieza del dispositivo realizada con éxito.",
+      "cleanupError": "Hubo un error al limpiar dispositivo, por favor, inténtalo de nuevo."
+    },
+    "terms": {
+      "title": "Términos de uso y privacidad",
+      "accept": "ACEPTO"
+    },
+    "resetFirmeware": {
+      "screenName": "Reset",
+      "title": "Para realizar el reset del firmware, informa el código de 4 dígitos pasado por la central de atención.",
+      "button": "Iniciar Reset",
+      "refreshing": "Actualizando Token",
+      "confirm": "¿Confirma el reset del dispositivo? Esta acción no se podrá deshacer.",
+      "invalidToken": "Token informado no está de acuerdo con el token del dispositivo, verifícalo de nuevo.",
+      "resetSuccess": "Reset del dispositivo realizado con éxito.",
+      "resetError": "Hubo un error al efectuar el reset del dispositivo, por favor, inténtalo de nuevo."
+    },
+    "login": {
+      "forgetPassword": "¿Se te olvidó la clave?",
+      "dateOfBirth": "Por favor, informa tu fecha de nacimiento",
+      "dateOfBirthLabel": "Para tu seguridad esta aplicación se debe configurar por un usuario con al menos 18 años.",
+      "email": "E-mail",
+      "password": "Clave",
+      "login": "Entrar",
+      "create": "Crea una cuenta",
+      "optionLogin": "o entra con",
+      "loginErrorTitle": "Error al recuperar tus datos",
+      "loginErrorDescription": "Infelizmente, no fue posible ingresar a tus datos ahora. Por favor, confirma tus credenciales e inténtalo de nuevo",
+      "loginErrorParameters": "Por favor informa e-mail y clave para hacer el login",
+      "loginErrorMessage": "No fue posible hacer el log-in no momento, por favor verifica tus credenciales",
+      "loginCancelMessage": "Login cancelado por el usuario.",
+      "loading": "Cargando",
+      "title": "Haz el login en tu cuenta",
+      "noAccount": "Regístrate",
+      "validations": {
+        "required": "Campo obligatorio",
+        "invalid": "El valor del campo es inválido",
+        "loginInvalid": "Falla en la autenticación, verifica tus credenciales",
+        "sessionExpired": "Tu sesión se terminó, haz el login para continuar"
+      }
+    },
+    "collectionDevice": {
+      "changeCapsuleInstructions1": "1. Abre el empaque de tu cápsula nueva y quítale el sello de protección;",
+      "changeCapsuleInstructions2": "2. Abre la puerta de cambio detrás del dispositivo;",
+      "changeCapsuleInstructions3": "3. Encaja la cápsula dentro de tu dispositivo;",
+      "changeCapsuleInstructions4": "4. Cierra la puerta de cambio.",
+      "changeCapsuleInstructions5": "Espera...",
+      "changeCapsuleInstructionsQuestion": "¿Hiciste el cambio?",
+      "openDoorCapsule1": "¡La puerta de cambio de la cápsula  detrás de tu dispositivo está abierta!",
+      "openDoorCapsule2": "Cierra la puerta después de insertar la nueva cápsula. Utilizar tu dispositivo con la puerta abierta puede causar daños.",
+      "legend": {
+        "configured": "Configurado",
+        "notConfigured": "No configurado",
+        "selected": "Seleccionado",
+        "shotSeconds": "Tiempo de disparo en segundos"
+      },
+      "legendApp": {
+        "filled": "Llenado con cápsula",
+        "available": "Disponible sin cápsula",
+        "notAvailable": "No disponible en esa campaña"
+      },
+      "mainData": "Datos principales",
+      "placeholders": {
+        "search": "Buscar Nombre y Fecha",
+        "fragrance": "Selecciona la fragancia",
+        "shotSeconds": "Entra con el tiempo de disparo"
+      },
+      "validate": {
+        "duplicated": "No es permitida la misma fragancia en más de una posición.",
+        "deviceError": "Por favor llena al menos una posición del dispositivo.",
+        "hasAnswer": "No es posible remover la fragancia. Ya existe una respuesta en el Quiz dirigida a esta fragancia."
+      },
+      "table": {
+        "slot": "Posición",
+        "fragrance": "Fragancia",
+        "shotSeconds": "Disparo (Segundos)",
+        "nothingConfig": "Ninguna fragancia configurada"
+      },
+      "labels": {
+        "fragrance": "Fragancia",
+        "beginCollection": "Iniciar configuración de las cápsulas"
+      },
+      "firstModal": {
+        "title": "¡Coloquemos las cápsulas de las fragancias en tu dispositivo MultiScent20!",
+        "msg": "Para adelantar, separa (sin abrir todavía) los empaques que enviamos por el orden numérico (1, 2, 3, 4, 5... hasta el n. 20)."
+      },
+      "deviceConnection": {
+        "nameScreen": "Conectar",
+        "title": "Conexión",
+        "deviceIsConnected": "Dispositivo conectado",
+        "deviceIsNotConnected": "Dispositivo no conectado",
+        "bluetoothStatus": "Bluetooth desactivado, activa para continuar. Si no activas las opciones de conexión con el dispositivo, verifica si la aplicación tienen los permisos necesarios en las configuraciones de tu teléfono.",
+        "allow": "Permitir",
+        "search": "Buscar dispositivos",
+        "connectByQrCode": "Escanea el QR Code del dispositivo en la parte trasera del mismo",
+        "requiredPermission": "Permiso necesario para continuar",
+        "warnnings": {
+          "bluetooth": "Bluetooth",
+          "gps": "GPS/Localización",
+          "qrCode": "QR Code",
+          "disabled": "desactivado",
+          "active": "Activa los recursos para continuar.",
+          "loginMessage": "Es necesario hacer el login para conectarte con un dispositivo.",
+          "login": "Login",
+          "invalidMacAddress": "¡La identificación del dispositivo informada no es válida!"
+        },
+        "modalChangeCollection": {
+          "label": "Dispositivo con campaña diferente de la campaña importada",
+          "text": "¿Qué deseas hacer?",
+          "btn1": "Actualizar la campaña",
+          "btn2": "Actualizar el dispositivo"
+        },
+        "modalConfirmConnect": {
+          "title": "Conectar dispositivo",
+          "text": "Ya existe un dispositivo conectado, deseas desconectar desde el dispositivo actual y conectar con "
+        },
+        "failConnect": "Falla al conectar con el dispositivo",
+        "disconnected": "Dispositivo desconectado, verifica la batería, o si fuere necesario apaga y encienda de nuevo.",
+        "error255": "Hubo un error en el dispositivo por una acción manual, por favor, apaga y enciende el dispositivo y conecta de nuevo.",
+        "alreadyConnected": "Dispositivo ya está conectado",
+        "modalManageCollection": {
+          "title": "Gestionar colección",
+          "text": "¿Quieres gestionar la colección?"
+        },
+        "battery": "Batería: ",
+        "positionFragrance": "Posición seleccionada: ",
+        "disconnect": "Desconectar",
+        "searching": "Buscando dispositivos...",
+        "modalConnectInternet": "Conexión con internet necesaria, verifica tu conexión e inténtalo de nuevo",
+        "modalOnlyOwners": "Sólo el propietario puede utilizar el dispositivo offline",
+        "pleaseRequestDisconnect1": "El usuario ",
+        "pleaseRequestDisconnect2": "está conectado ahora, pide por favor para que él apague del aparato o espere 15 minutos e inténtalo de nuevo"
+      },
+      "title": "Gestionar colección",
+      "scanBtnText": "Escanear cápsula por QR Code",
+      "fragranceUpdated": "Fragancia actualizada con éxito.",
+      "tryTitle": "¡Siente la fragancia!",
+      "tryFragrance": "Aproxímate de la parte superior de tu dispositivo durante {{seconds}} segundos para sentir el olor digital.",
+      "errors": {
+        "generic": "Error al actualizar cápsula, cápsula inválida.",
+        "length": "Error al actualizar cápsula, tamaño del QR code inválido",
+        "customer_code": "Error al actualizar cápsula, código del cliente inválido.",
+        "fragranceInvalid": "Esta fragancia no pertenece a la colección.",
+        "slotInvalid": "El empaque no corresponde al número de la fragancia solicitada. Verifica el número del empaque e inténtalo de nuevo.",
+        "alreadyUpdatedOffline": "Esta fragancia ya se actualizó una vez offline, conéctate al internet para proseguir.",
+        "offlineUnicRecharge": "Sólo es posible cambiar la cápsula offline apenas una vez por fragancia.",
+        "capsuleIsDue": "Fragancia fuera de validez, usa otra por favor.",
+        "alreadyUsed": "Cápsula ya utilizada, usa otra por favor.",
+        "recharge": "Hubo algún error al actualizar a fragancia, por favor, rehace el procedimiento."
+      }
+    },
+    "category": {
+      "pageTitle": {
+        "edit": "Actualizar Categoría",
+        "create": "Registro de Categoría"
+      },
+      "mainData": "Datos principales",
+      "list": {
+        "title": "Categorías",
+        "actions": "Acciones",
+        "name": "Nombre",
+        "created": "Fecha de Registro"
+      },
+      "placeholders": {
+        "search": "Buscar Nombre y Fecha",
+        "name": "Digita el nombre"
+      },
+      "labels": {
+        "name": "Nombre"
+      }
+    },
+    "campaignImport": {
+      "screenName": {
+        "quiz": "Importar quiz",
+        "catalog": "Importar catálogo"
+      },
+      "scanQRCode": {
+        "quiz": "Cargar un quiz a partir de un QR Code",
+        "catalog": "Cargar un catálogo a partir de un QR Code"
+      },
+      "labelBtnQrCode": {
+        "quiz": "También es posible cargar un quiz específico, a través de un QR Code (normalmente pegado en el dispositivo) o dispuesto en alguna publicidad",
+        "catalog": "También es posible cargar un catálogo específico, a través de un QR Code (normalmente colado no dispositivo) o dispuesto en alguna publicidad"
+      },
+      "ImportCurrentCampaign": {
+        "quiz": "Cargar quiz actual",
+        "catalog": "Cargar catálogo actual"
+      },
+      "labelBtnCurrentCapaign": {
+        "quiz": "Quiz actual con la última campaña",
+        "catalog": "Catálogo actual con la última campaña"
+      },
+      "scanQRCodeTitle": "Apunta hacia el QR Code",
+      "scanQRCodeDesc": " del empaque n. {{capsuleNumber}}",
+      "title": {
+        "quiz": "Para que comencemos, ¿cómo quieres importar el quiz?",
+        "catalog": "Para que comencemos, ¿cómo quieres importar el catálogo?"
+      },
+      "notFoundCampaign": {
+        "quiz": "No existe quiz default, entra en contacto por favor con un administrador.",
+        "catalog": "No existe catálogo default, entra en contacto por favor con un administrador."
+      },
+      "alreadyUpdated": {
+        "quiz": "El quiz que estás intentando importar ya está actualizado.",
+        "catalog": "El quiz que estás intentando importar ya está actualizado."
+      },
+      "importSuccessTitle": "¡Importación realizada con éxito!",
+      "goToConnection": "¿Tienes tú un dispositivo para conectar y configurar? Haz clic en Sí si deseas configurar ahora, también es posible configurar por el menú de configuración.",
+      "summary": {
+        "fragrances": "{{fragrances}} fragancias disponibles",
+        "quiz": {
+          "quiz": "Quiz disponible en ",
+          "catalog": "Catálogo disponible en "
+        },
+        "noQuiz": {
+          "quiz": "Ningún quiz disponible",
+          "catalog": "Ningún catálogo disponible"
+        }
+      },
+      "errors": {
+        "generic": "Hubo algún error al importar la campaña, inténtalo más tarde.",
+        "otherCustomer": "La campaña seleccionada no pertenece al cliente.",
+        "notFound": "No fue posible identificar la campaña.",
+        "incomplete": "Campaña incompleta, entra en contacto por favor con un administrador."
+      }
+    },
+    "campaignCover": {
+      "casa": "la casa",
+      "perfumaria": "de perfumería",
+      "brasil": "de Brasil",
+      "start": "ENCUENTRA TU FRAGANCIA",
+      "title": "¡Hola, qué bueno verte por aquí!",
+      "errors": {
+        "checkUpdated": "Hubo algún error al verificar si la campaña está actualizada."
+      }
+    },
+    "welcome": {
+      "screenName": "Introducción",
+      "title1": {
+        "quiz": "¡Hola, qué bueno verte por aquí!",
+        "catalog": "¡Hola, qué bueno verte por aquí!"
+      },
+      "text1": {
+        "quiz": "Descubre la fragancia que más combina contigo o con la persona a quien deseas regalar respondiendo algunas preguntas ;)",
+        "catalog": "Prueba nuestro catálogo digital de fragancias de manera intuitiva y sensorial."
+      },
+      "title2": "¡Prueba las fragancias de manera revolucionaria!",
+      "text2": "Podrás probar las fragancias usando tu dispositivo MultiScent20.",
+      "next": "Continuar"
+    },
+    "register": {
+      "name": "Nombre*",
+      "email": "Email*",
+      "cpf": "CPF/CNPJ",
+      "cep": "CÓDIGO POSTAL",
+      "city": "Ciudad",
+      "state": "Estado",
+      "street": "Calle",
+      "password": "Clave*",
+      "confirm": "Confirmar Clave*",
+      "birthday": "Fecha de nacimiento",
+      "female": "Femenino",
+      "male": "Masculino",
+      "genre": "Género",
+      "register": "Registrar",
+      "next": "Continuar",
+      "back": "Volver",
+      "step1": "Acceso",
+      "step2": "Informaciones personales",
+      "step3": "Dirección",
+      "errors": {
+        "passwordConfirm": "La clave y la confirmación de clave tienen que ser iguales",
+        "passwordErrors": {
+          "label": "Clave no posee los requisitos mínimos:",
+          "NECESSARY_CHARACTERS": "+ de 8 Caracteres",
+          "HAS_NUMERAL": "Números",
+          "HAS_UPPERANDLOWERCASE": "Letras Mayúsculas ",
+          "HAS_ESPECIAL_CHAR": "Caracteres Especiales"
+        },
+        "emailIvalid": "Digita un e-mail válido",
+        "cpf": "Entra con un CPF/CNPJ valido",
+        "name": "Entra con un nombre con al menos 3 caracteres",
+        "cep": "Entra con un CÓDIGO POSTAL válido"
+      }
+    },
+    "forgotPassword": {
+      "forgotTitle": "¿Se te olvidó la clave?",
+      "forgotSubTitle": "Entra con tu email para iniciar el proceso de recuperación de clave:",
+      "emailInput": "Entra con tu e-mail registrado",
+      "recoverButton": "Recuperar clave",
+      "success": {
+        "message": "¡Se envió un email para tu buzón de entrada!"
+      },
+      "error": {
+        "invalidEmailTitle": "Email inválido",
+        "invalidEmailText": "Por favor, entra con un email válido",
+        "apiCallErrorTitle": "No fue posible concluir tu requisición",
+        "apiCallErrorText": "No fue posible completar tu requisición por ahora, por favor, inténtalo de nuevo más tarde",
+        "relatedEmail": "¡Este email no está relacionado a ninguna cuenta!"
+      }
+    },
+    "campaigns": {
+      "pageTitle": {
+        "edit": "Actualizar Campaña",
+        "create": "Registro de Campaña"
+      },
+      "mainData": "Datos principales",
+      "labels": {
+        "name": "Nombre",
+        "image": "Capa",
+        "collection": "Colección",
+        "fragranceShots": "Disparos por Fragancia",
+        "language": "Idioma"
+      },
+      "placeholders": {
+        "name": "Digita el nombre",
+        "image": "Selecciona la imagen de capa",
+        "colletion": "Selecciona la colección",
+        "search": "Buscar por Campaña, Nombre o Fecha"
+      },
+      "list": {
+        "title": "Campañas",
+        "actions": "Acciones",
+        "name": "Nombre",
+        "default": "Default",
+        "created": "Fecha de Registro",
+        "defineTitle": "Definir campaña estándar",
+        "defineText": "¿Deseas realmente definir esta campaña como estándar?",
+        "downloads": "Downloads",
+        "qrCode": "Generar QR Code",
+        "print": "Imprimir"
+      },
+      "errors": {
+        "defaultCampaign": "No existe campaña estándar, configura por favor en el admin."
+      }
+    },
+    "loading": {
+      "title": "Cargando...",
+      "message": "Espera un momento por favor"
+    },
+    "fragrance": {
+      "categories": {
+        "createError": "Hubo algún error al registrar la categoría"
+      },
+      "pageTitle": {
+        "edit": "Actualizar fragancia",
+        "create": "Registro de Fragancia"
+      },
+      "mainData": "Datos principales",
+      "labels": {
+        "category": "Categoría",
+        "create": "Crear Categoría",
+        "image": "Imagen",
+        "name": "Nombre",
+        "ofactoryWay": "Camino Olfativo",
+        "description": "Descripción"
+      },
+      "placeholders": {
+        "selectCategory": "Selecciona la categoría",
+        "selectImage": "Selecciona una imagen",
+        "name": "Digita el nombre",
+        "ofactoryWay": "Digita el camino olfativo",
+        "description": "Digita la descripción",
+        "search": "Buscar Nombre de la Fragancia, Categoría o Fecha"
+      },
+      "list": {
+        "title": "Fragancias",
+        "actions": "Acciones",
+        "name": "Nombre",
+        "category": "Categoría",
+        "created": "Fecha de Registro"
+      }
+    },
+    "tryFragrance": {
+      "feelIt": "PRUEBA",
+      "recharge": "RECARGAR",
+      "connect": "CONECTAR",
+      "trialsLeft": "Disparo(s) disponible(s)",
+      "position": "Posición",
+      "capsuleError": "La cápsula informada no es de la fragancia seleccionada",
+      "connectDeviceModal": {
+        "title": "Conecta el dispositivo",
+        "text": "Conecta el dispositivo para probar la fragancia."
+      }
+    },
+    "recoveryPassword": {
+      "requireTitle": "Requisitos de seguridad para clave:",
+      "requireChar": "✓ Contener entre 4 e 16 caracteres;",
+      "requireNumber": "✓ Contener numerales;",
+      "requireUpperLower": "✓ Contener letras minúsculas y mayúsculas;",
+      "requireEspecialChar": "✓ Caracteres especiales ?=.*[]#$^+=!*()+@-%{'&'}",
+      "placeholders": {
+        "inputPassword": "Entra con una clave",
+        "confirmPassword": "Confirma la clave"
+      },
+      "pageTitle": {
+        "active": "Activar Cuenta",
+        "recovery": "Activar Registro",
+        "new": "Recuperar Clave"
+      },
+      "errors": {
+        "empty": "¡Completa con una clave!",
+        "requirement": "La clave no posee los requisitos mínimos.",
+        "different": "Las claves no están de acuerdo. ¡Inténtalo de nuevo!",
+        "title": "Hubo un error...",
+        "subTitle": "Hubo un problema al cambiar tu clave",
+        "msg": "Hubo un problema al activar tu cuenta, inténtalo de nuevo más tarde o contacta al equipo técnico."
+      },
+      "success": {
+        "title": "¡Muy bien!",
+        "subTitle": "¡Tu clave ha sido definida con éxito!"
+      },
+      "messages": {
+        "recovery": {
+          "title": "Definir nueva clave",
+          "subtitle": "Crea una nueva clave para tu cuenta:",
+          "button": "Definir clave"
+        },
+        "register": {
+          "title": "¡Tu email ha sido confirmado!",
+          "subtitle": "Ahora, crea tu clave para ingreso:",
+          "button": "Registrar clave"
+        },
+        "create": {
+          "title": "¡Tu email ha sido confirmado!",
+          "subtitle": "Tu cuenta está lista para ser utilizada.",
+          "button": "Activar cuenta"
+        }
+      }
+    },
+    "quiz": {
+      "pageTitle": {
+        "create": "Crear Quiz",
+        "edit": "Actualizar Quiz"
+      },
+      "headerTitle": "Registrar quiz",
+      "labels": {
+        "name": "Nombre",
+        "campaign": "Campaña",
+        "language": "Idioma",
+        "principal": "Informaciones principales",
+        "questionarie": "Formulario de preguntas",
+        "question": "Pregunta",
+        "answer": "Respuesta",
+        "description": "Descripción de la Respuesta",
+        "destiny": "Opción de respuesta",
+        "fragrances": "Fragancias de la colección",
+        "next": "Próxima pregunta",
+        "noFragranceOption": "Ninguna opción de fragancia",
+        "noQuestionOption": "Ninguna próxima pregunta",
+        "addAnswer": "Añadir respuesta",
+        "updateAnswer": "Actualizar respuesta",
+        "editAnswer": "Cambiar respuesta",
+        "deleteAnswer": "Remover respuesta",
+        "noQuestions": "Ninguna pregunta adicionada",
+        "saveQuestion": "Salvar pregunta",
+        "updateQuestion": "Actualizar pregunta",
+        "validate": "Validar quiz",
+        "publish": "Publicar quiz"
+      },
+      "messages": {
+        "add": "Pregunta adicionada con éxito",
+        "validated": "Quiz validado con éxito",
+        "published": "Quiz publicado con éxito",
+        "campaign": "Campaña"
+      },
+      "placeholders": {
+        "name": "Digita el nombre",
+        "campaign": "Selecciona la campaña",
+        "search": "Buscar Nombre del Quiz, Nombre de la Campaña o Fechas",
+        "question": "Buscar preguntas",
+        "answer": "Buscar respuestas",
+        "description": "Digite la descripción",
+        "next": "Escoge la pregunta a continuación",
+        "fragrances": "Escoge las fragancias de la colección",
+        "newQuestion": "Crear una nueva pregunta: ",
+        "newAnswer": "Crear una nueva respuesta: "
+      },
+      "errors": {
+        "create": "Hubo un error al intentar registrar el quiz.",
+        "title": "¡Atención!",
+        "message": "Error al cargar los datos, inténtalo de nuevo más tarde.",
+        "questionRequired": "Pregunta es obligatoria",
+        "answerRequired": "Respuesta es obligatoria",
+        "fragranceRequired": "Al menos una opción de fragancia es obligatoria",
+        "nextRequired": "Próxima pregunta es obligatoria",
+        "answersRequired": "Al menos una respuesta es obligatoria"
+      },
+      "list": {
+        "title": "Quiz",
+        "actions": "Acciones",
+        "name": "Nombre",
+        "campaign": "Campaña",
+        "questions": "Preguntas",
+        "validate": "Válido",
+        "published": "Publicado",
+        "created": "Fecha de Registro",
+        "updated": "Última actualización"
+      },
+      "submenu": {
+        "back": "Volver",
+        "startOver": "Recomenzar",
+        "config": "Config"
+      }
+    },
+    "user": {
+      "pageTitle": {
+        "edit": "Actualizar Usuario",
+        "create": "Registro de Usuario"
+      },
+      "mainData": "Datos principales",
+      "male": "Masculino",
+      "feminine": "Femenino",
+      "other": "Otro",
+      "labels": {
+        "name": "Nombre",
+        "email": "Email",
+        "profile": "Perfil",
+        "document": "Documento",
+        "cpf": "CPF",
+        "birthday": "Fecha de nacimiento",
+        "genre": "Género",
+        "country": "País",
+        "region": "Estado",
+        "city": "Ciudad",
+        "street": "Calle",
+        "zipCode": "CÓDIGO POSTAL"
+      },
+      "placeholders": {
+        "name": "Digita el nombre",
+        "email": "Digita el email",
+        "profile": "Selecciona el perfil",
+        "search": "Buscar por Nombre, Email, Documento, Dirección y Fechas",
+        "cpf": "Digita el CPF",
+        "document": "Digita el documento",
+        "genre": "Selecciona el género",
+        "country": "Selecciona el país",
+        "region": "Selecciona el estado",
+        "city": "Selecciona la ciudad",
+        "street": "Digita el nombre de la calle",
+        "zipCode": "Digita el Código Postal"
+      },
+      "errors": {
+        "register": "Error al registrar usuario, inténtalo de nuevo más tarde.",
+        "invalidEmail": "Email inválido",
+        "invalidBirthday": "Tienes que tener más de doce años para ingresar"
+      },
+      "list": {
+        "title": "Usuarios",
+        "actions": "Acciones",
+        "document": "Documento",
+        "name": "Nombre",
+        "email": "Email",
+        "genre": "Género",
+        "birthday": "Fecha de nacimiento",
+        "profile": "Perfil",
+        "address": "Dirección",
+        "status": "Estatus",
+        "created": "Fecha de Registro"
+      }
+    },
+    "device": {
+      "title": "Dispositivo",
+      "labels": {
+        "macAddress": "Mac Address",
+        "user": "Usuario Conectado",
+        "owner": "Usuario Propietario",
+        "modal": "Token de Reset de Firmeware",
+        "disconnect": "Desconectar"
+      },
+      "messages": {
+        "disconnect": "¿Confirmas desconectar el usuario actual del device?",
+        "success": "Usuario desconectado con éxito",
+        "modal": "Informa el código abajo para el usuario dentro del período válido para que él consiga hacer el reset del dispositivo dentro de la aplicación."
+      },
+      "placeholders": {
+        "filter": "Buscar Mac Address, Propietario, Conectado o Campaña"
+      },
+      "errors": {
+        "disconnect": "Hubo un error al desconectar el usuario."
+      }
+    },
+    "capsule": {
+      "title": "cápsulas",
+      "labels": {
+        "serial": "Número de Serie",
+        "remaining": "Disparos disponibles",
+        "dueDate": "Fecha de Validez"
+      },
+      "placeholders": {
+        "filter": "Buscar Número de Serie, Mac Address o Fragancia"
+      }
+    }
+  },
+  "menu": {
+    "header": {
+      "items": {
+        "profiles": "Perfiles"
+      }
+    },
+    "profile": {
+      "title": "Perfiles",
+      "submenu": {}
+    },
+    "user": {
+      "title": "Usuarios"
+    },
+    "fragrance": {
+      "title": "Fragancias",
+      "submenu": {
+        "config": "Gestionar",
+        "categories": "Categorías"
+      }
+    },
+    "campaign": {
+      "title": "Campañas",
+      "submenu": {}
+    },
+    "quiz": {
+      "title": {
+        "quiz": "Quiz",
+        "catalog": "Catálogo"
+      },
+      "noQuizForIdiom": {
+        "quiz": "No se encontró un quiz para el idioma seleccionado, por favor, intenta otro idioma",
+        "catalog": "No se encontró un catálogo para el idioma seleccionado, por favor, intenta otro idioma"
+      },
+      "submenu": {
+        "faq": "FAQ",
+        "editUser": "Editar Usuario",
+        "importCampaign": "Importar Campaña",
+        "connectDevice": "Conectar Dispositivo",
+        "quiz": {
+          "quiz": "Quiz",
+          "catalog": "Catálogo"
+        },
+        "catalog": "Catálogo",
+        "quizInUserLanguageNotFound": {
+          "quiz": "NOTA: No se encontró un quiz para el idioma seleccionado. El idioma de la app será cambiado",
+          "catalog": "NOTA: No se encontró un catálogo para el idioma seleccionado. El idioma de la app será cambiado"
+        },
+        "logout": {
+          "title": "Salir",
+          "confirmationTitle": "Deslogar",
+          "confirmationDescription": "¿Estás seguro que quieres deslogar de la aplicación?",
+          "confirmationPositive": "Sí",
+          "confirmationNegative": "No"
+        }
+      }
+    }
+  },
+  "datatable": {
+    "add": "Añadir",
+    "export": "Exportar",
+    "refresh": "Actualizar",
+    "labelRowsPerPage": "Registros por página",
+    "backButton": "Anterior",
+    "nextButton": "Próxima",
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "nothingData": "Ningún registro encontrado.",
+    "of": "de",
+    "delete": "Borrar registro"
+  },
+  "changeStatus": {
+    "message": "Al hacer clic en confirmar estarás cambiando el estatus del registro.",
+    "title": "¿Cambiar el estatus?",
+    "error": "Error al cambiar el estatus del registro",
+    "success": "Estatus cambiado con éxito",
+    "activeUser": "¿Deseas reenviar un email de activación para el usuario seleccionado?",
+    "confirmTitle": "Confirmación",
+    "resend": "Reenviar email de confirmación",
+    "activeRegister": "¿Deseas activar el registro seleccionado?",
+    "inactiveRegister": "¿Deseas inactivar el registro seleccionado?",
+    "inactive": "Inactivar",
+    "active": "Activar"
+  },
+  "deleteRegister": {
+    "title": "¿Deseas realmente borrar el registro?",
+    "message": "Al hacer clic en confirmar excluirás el registro permanentemente.",
+    "deletedSuccess": "Registro borrado con éxito.",
+    "deletedError": "Error al borrar el registro."
+  },
+  "defaultMessages": {
+    "errorExport": "Hubo algún problema al exportar archivo",
+    "id": "ID",
+    "error": "¡Atención!",
+    "fragrancesNotFound": "Ninguna fragancia encontrada.",
+    "success": "¡Éxito!",
+    "loadData": "Hubo un error al cargar los datos, ¡inténtalo de nuevo más tarde!",
+    "saveData": "Datos salvados con éxito.",
+    "cleanForm": "Problema al revertir los cambios, inténtalo más tarde",
+    "loading": "Cargando...",
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "sendMail": "Email de confirmación se envió con éxito",
+    "errorSendMail": "Hubo un error al reenviar el email",
+    "errorChangeStatus": "Error al cambiar estatus",
+    "nothingHere": "Nada más para hacer aquí.",
+    "ok": "OK",
+    "changeStatus": "Error al cambiar el estatus, inténtalo de nuevo más tarde.",
+    "alterPasswordSuccess": "Clave cambiada con éxito.",
+    "myPassword": "Mi Clave",
+    "alterPassword": "Cambiar la clave de ingreso",
+    "ops": "Ups...",
+    "loginUserMessage": "Este usuario no tiene permiso para ingresar.",
+    "published": "Publicado",
+    "publishedIn": "Publicado el",
+    "validatedIn": "Válido el",
+    "selectLanguage": "Selecciona el idioma",
+    "privacyPolicy": "Política de privacidad",
+    "warnning": "¡Atención!",
+    "newQuiz": {
+      "quiz": "¿Deseas realmente iniciar un nuevo quiz? Esta acción no se podrá deshacer.",
+      "catalog": "¿Deseas realmente iniciar un  nuevo catálogo? Esta acción no se podrá deshacer."
+    }
+  },
+  "selectComponent": {
+    "nothingFound": "Ninguno encontrado",
+    "minChar": "Digita al menos 3 caracteres para buscar.",
+    "create": "Crear"
+  },
+  "alterPassword": {
+    "title": "Cambiar Clave",
+    "loading": "Cambiando clave...",
+    "required": "Campo Obligatorio",
+    "minimumReqs": "Clave no posee los requisitos mínimos",
+    "matchConfirmation": "Clave y confirmación de clave no están de acuerdo",
+    "failure": "Falla al cambiar la clave",
+    "necessaryChar": "+ de 8 Caracteres",
+    "hasNumeral": "Números",
+    "hasUpperChar": "Letras Mayúsculas",
+    "hasEspecialChar": "Caracteres Especiales",
+    "labels": {
+      "password": "Clave Actual",
+      "newPassword": "Nueva Clave",
+      "confirmPassword": "Confirma la Clave"
+    }
+  },
+  "languages": {
+    "pt": "Portugués",
+    "en": "Inglés"
+  },
+  "crudMessages": {
+    "successText": "Registro salvado con éxito",
+    "failLoad": "Hubo un error al cargar los datos del registro",
+    "saveFailed": "Error al salvar los datos, inténtalo de nuevo más tarde"
+  },
+  "device": {
+    "errors": {
+      "lowBattery": "Dispositivo sin batería, conecta a una fuente de energía para continuar"
+    }
+  }
+}

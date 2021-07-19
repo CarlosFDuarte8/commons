@@ -1,0 +1,23 @@
+{
+  "name": "noar-boticario-commons",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get your application up and running.",
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://verzel@bitbucket.org/verzel/noar-boticario-commons.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/verzel/noar-boticario-commons#readme",
+  "dependencies": {
+    "crypto-js": "3.3.0"
+  }
+}
