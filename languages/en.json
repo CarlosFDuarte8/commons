@@ -28,7 +28,7 @@
     "newCatalog": "New Catalog",
     "finish": "End configuration",
     "start": "Start",
-    "IWantToStart": "I want to start"
+    "IWantToStart": "Touch to begin"
   },
   "screens": {
     "dashboard": {
@@ -414,11 +414,11 @@
       }
     },
     "tryFragrance": {
-      "feelIt": "FEEL IT",
+      "feelIt": "Ready to try",
       "recharge": "RECHARGE",
       "connect": "CONNECT",
       "trialsLeft": "trials left",
-      "position": "Position",
+      "position": "Position:",
       "capsuleError": "The informed capsule is not of the selected fragrance",
       "connectDeviceModal": {
         "title": "Connect Device",
