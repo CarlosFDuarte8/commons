@@ -24,7 +24,9 @@
     "revert": "Reverter",
     "close": "Fechar",
     "Continue": "Continuar",
+    "Catalog": "Catálago",
     "newQuiz": "Novo Quiz",
+    "Quiz": "Quiz",
     "newCatalog": "Novo Catalogo",
     "finish": "Concluir configuração",
     "start": "Iniciar",
@@ -775,6 +777,10 @@
     "warnning": "Atenção!",
     "newQuiz": {
       "quiz": "Deseja realmente iniciar um novo quiz? Está ação não podera ser desfeita.",
+      "catalog": "Deseja realmente iniciar um novo catálogo? Está ação não podera ser desfeita."
+    },
+    "newCampaing": {
+      "quiz": "Deseja realmente ir para o inicio? Está ação não podera ser desfeita.",
       "catalog": "Deseja realmente iniciar um novo catálogo? Está ação não podera ser desfeita."
     }
   },

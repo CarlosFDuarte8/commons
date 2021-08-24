@@ -772,6 +772,10 @@
     "newQuiz": {
       "quiz": "Do you really want to start a new quiz? This action cannot be undone.",
       "catalog": "Do you really want to start a new catalog? This action cannot be undone."
+    },
+    "newCampaing": {
+      "quiz": "Do you really want to go to the beginning? This action cannot be undone.",
+      "catalog": "Do you really want to start a new catalog? This action cannot be undone."
     }
   },
   "selectComponent": {
